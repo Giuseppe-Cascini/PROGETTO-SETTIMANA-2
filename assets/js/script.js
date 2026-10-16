@@ -17,98 +17,98 @@ REGOLE
 /* SCRIVI QUI LA TUA RISPOSTA */
 const prodotti = [
     {
-        name:'cuffie',
+        nome:'cuffie',
         categoria:'elettronica',
-        prezzo:'89.99',
-        rating:'4.2',
+        prezzo:89.99,
+        rating:4.2,
         immagine:'cufffie.png',
         disponibile:'true'
     },
     {
-        name:'tablet',
+        nome:'tablet',
         categoria:'elettronica',
-        prezzo:'199.00',
-        rating:'4.7',
+        prezzo:199.00,
+        rating:4.7,
         immagine:'tablet.png',
         disponibile:'true'
     },
      {
-        name:'libro',
+        nome:'libro',
         categoria:'libri',
-        prezzo:'14.90',
-        rating:'4.0',
+        prezzo:14.90,
+        rating:4.0,
         immagine:'libro.png',
         disponibile:'true'
     },
      {
-        name:'zaino',
+        nome:'zaino',
         categoria:'abbigliamento',
-        prezzo:'49.99',
-        rating:'4.3',
+        prezzo:49.99,
+        rating:4.3,
         immagine:'zaino.png',
         disponibile:'true'
     },
      {
-        name:'lampada',
+        nome:'lampada',
         categoria:'casa',
-        prezzo:'29.50',
-        rating:'3.8',
+        prezzo:29.50,
+        rating:3.8,
         immagine:'lampada.png',
         disponibile:'true'
     },
      {
-        name:'smartwatch',
+        nome:'smartwatch',
         categoria:'elettronica',
-        prezzo:'119.00',
-        rating:'4.4',
+        prezzo:119.00,
+        rating:4.4,
         immagine:'smartwatch.png',
         disponibile:'true'
     },
      {
-        name:'mouse',
+        nome:'mouse',
         categoria:'elettronica',
-        prezzo:'24.90',
-        rating:'4.1',
+        prezzo:24.90,
+        rating:4.1,
         immagine:'mouse.png',
         disponibile:'true'
     },
      {
-        name:'caffettiera',
+        nome:'caffettiera',
         categoria:'casa',
-        prezzo:'22.00',
-        rating:'4.6',
+        prezzo:22.00,
+        rating:4.6,
         immagine:'caffettiera.png',
         disponibile:'true'
     },
      {
-        name:'iphone 18 pro',
+        nome:'iphone 18 pro',
         categoria:'elettronica',
-        prezzo:'1475.00',
-        rating:'4.7',
+        prezzo:1475.00,
+        rating:4.7,
         immagine:'iphone18pro.png',
         disponibile:'false'
     },
      {
-        name:'felpa nike',
+        nome:'felpa nike',
         categoria:'abbigliamento',
-        prezzo:'79.99',
-        rating:'4.4',
+        prezzo:79.99,
+        rating:4.4,
         immagine:'felpanike.png',
         disponibile:'false'
     },
      {
-        name:'tavolo',
+        nome:'tavolo',
         categoria:'casa',
-        prezzo:'169.00',
-        rating:'4.1',
+        prezzo:169.00,
+        rating:4.1,
         immagine:'tavolo.png',
         disponibile:'false'
     },
      {
-        name:'t-shirt',
+        nome:'t-shirt',
         categoria:'abbigliamento',
-        prezzo:'29.99',
-        rating:'4.1',
+        prezzo:29.99,
+        rating:4.1,
         immagine:'t-shirt.png',
         disponibile:'false'
     }
@@ -123,6 +123,11 @@ console.log(prodotti);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function formattaPrezzo(prezzo) {
+   return prezzo.toFixed(2).replace(".", ",");
+}
+console.log(`Monitor: € ${formattaPrezzo(121)}`);
+console.log(`Monitor: € ${formattaPrezzo(15.65)}`);
 
 
 /* VERSIONE INTERMEDIA — stelline(rating)
