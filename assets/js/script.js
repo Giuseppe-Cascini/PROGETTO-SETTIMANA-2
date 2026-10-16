@@ -113,7 +113,7 @@ const prodotti = [
         disponibile:'false'
     }
 ];
-
+console.log(prodotti);
 
 
 
