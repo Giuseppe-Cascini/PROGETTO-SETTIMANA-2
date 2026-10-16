@@ -137,10 +137,10 @@ console.log(`Monitor: € ${formattaPrezzo(15.65)}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function stelline(stringa) {
+function stelline(rating) {
     let risultato = '';
     for(let i=0; i<5; i++) {
-        if(i<=stringa) {
+        if(i<=rating) {
             risultato += "★"
         } else {
             risultato += "☆"
@@ -148,8 +148,8 @@ function stelline(stringa) {
     }
     return risultato
 }
-console.log(`Monitor: reting3-> ${stelline(3)}`)
-console.log(`Monitor: reting3-> ${stelline(5)}`)
+console.log(`Monitor: rating 3-> ${stelline(3)}`)
+console.log(`Monitor: rating 5-> ${stelline(5)}`)
 
 
 /* VERSIONE INTERMEDIA — Filtro per categoria
@@ -206,3 +206,4 @@ console.log(`Monitor: reting3-> ${stelline(5)}`)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
