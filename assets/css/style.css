@@ -33,14 +33,46 @@ button {
 header{
     background-color: #131921;
     padding: 15px 20px;
+    position: sticky;
+    top: 0;
 }
 .logo-amazon {
     display:inline-block;
-    
+    color: white;
+    font-size: 25px;
+    margin-right: 25px;
 }
 .barra-ricerca {
     display: inline-block;
 }
 .altro {
     display: inline-block;
+    color: white;
+    padding: 10px 15px;
+
+}
+.carrello {
+    display: inline-block;
+    padding: 10px 15px;
+}
+.carrello button {
+    background-color: #232F3E;
+    border-radius: 4%;
+    padding: 10px 15px;
+}
+.barra-ricerca input{
+    width: 400px;
+    height: 40px;
+}
+.barra-ricerca button {
+    background-color: #FEBD69;
+    border-radius: 4%;
+    padding: 10px 15px;
+    height: 40px;
+}
+.hero {
+    background-color: #303F51;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
 }
