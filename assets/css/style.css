@@ -30,3 +30,16 @@ button {
 }
 
 /* Scrivi qui sotto i tuoi stili */
+header{
+    background-color: #131921;
+    padding: 15px 20px;
+}
+.logo-amazon {
+    display: inline-block;
+}
+.barra-ricerca {
+    display: inline-block;
+}
+.altro {
+    display: inline-block;
+}

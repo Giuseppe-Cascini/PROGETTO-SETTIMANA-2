@@ -1,37 +1,89 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon Homepage — Week Project</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Homepage — Week Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link </head>
+
 <body>
 
-  <header>
-    <!-- Logo, barra di ricerca, link Account / Ordini / Carrello -->
-  </header>
+    <header>
+        <!-- Logo, barra di ricerca, link Account / Ordini / Carrello -->
+        <div class="logo-amazon">
+            <i class="fa-brands fa-amazon"></i>
+        </div>
+        <div>
+            <form class="barra-ricerca">
+                <input type="search" placeholder="Cerca prodotti, categorie, brand..." />
+                <button type="submit">Cerca</button>
+            </form>
+        </div>
+        <div class="altro">
+            <a href="javascript:void(0)">Account</a>
+            <a href="javascript:void(0)">Ordini</a>
+            <a href="javascript:void(0)">Carrello</a>
+    <main>
 
-  <main>
+        <section class="hero">
+            <!-- Titolo grande, sottotitolo -->
+             <h1>Le offerte di oggi</h1>
+             <p>Sconti fino al 70% su elettronica, libri, casa e molto altro</p>
+        </section>
 
-    <section class="hero">
-      <!-- Titolo grande, sottotitolo -->
-    </section>
+        <section class="categorie">
+            <!-- 4 card categoria -->
+             <h2>Categorie</h2>
+             <article class="categoria">
+                <div class="immagine-elettronica">
+                <img src="https://placehold.co/600x400" alt="elettronica">
+                </div class="info-elettronica">
+                <h3>Elettronica</h3>
+                <a href="javascript:void(0)">Scopri di più</a>
+             </article>
 
-    <section class="categorie">
-      <!-- 4 card categoria -->
-    </section>
+             <article class="categoria">
+                <div class="immagine-libri">
+                <img src="https://placehold.co/600x400" alt="elettronica">
+                </div class="info-elettronica">
+                <h3>Libri</h3>
+                <a href="javascript:void(0)">Scopri di più</a>
+             </article>
 
-    <section class="prodotti">
-      <!-- Griglia prodotti (Versione Base: HTML statico; Intermedia/Avanzata: generata da JS) -->
-    </section>
+             <article class="categoria">
+                <div class="immagine-abbigliamento">
+                <img src="https://placehold.co/600x400" alt="elettronica">
+                </div class="info-elettronica">
+                <h3>Abbigliamento</h3>
+                <a href="javascript:void(0)">Scopri di più</a>
+             </article>
 
-  </main>
+             <article class="categoria">
+                <div class="immagine-casa">
+                <img src="https://placehold.co/600x400" alt="elettronica">
+                </div class="info-elettronica">
+                <h3>Casa</h3>
+                <a href="javascript:void(0)">Scopri di più</a>
+             </article>
+        </section>
 
-  <footer>
-    <!-- 3 colonne di link -->
-  </footer>
+        <section class="prodotti">
+            <!-- Griglia prodotti (Versione Base: HTML statico; Intermedia/Avanzata: generata da JS) -->
+        </section>
 
-  <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <!-- 3 colonne di link -->
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
+
+
+
