@@ -137,6 +137,20 @@ console.log(`Monitor: € ${formattaPrezzo(15.65)}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function stelline(stringa) {
+    let risultato = '';
+    for(let i=0; i<5; i++) {
+        if(i<=stringa) {
+            risultato += "★"
+        } else {
+            risultato += "☆"
+        }
+    }
+    return risultato
+}
+console.log(`Monitor: reting3-> ${stelline(3)}`)
+console.log(`Monitor: reting3-> ${stelline(5)}`)
+
 
 /* VERSIONE INTERMEDIA — Filtro per categoria
    Funzione che riceve il parametro categoria e filtra l'array prodotti mostrando solo i prodotti della categoria ricevuta
