@@ -176,8 +176,18 @@ header{
 .feedback span {
     color:#146EB4
 }
-
-
+.prodotti article p {
+    color: #B12704;
+    font-size: 20px;
+    font-weight: bold;
+}
+.prodotti article button {
+    background-color: #FFD814;
+    width: 100%;
+    border-radius: 12%;
+    padding:10px;
+    font-size: 14px;
+}
 
 
 
