@@ -170,6 +170,20 @@ header{
 .prodotti article h3 {
     min-height: 45px;
 }
+.feedback i {
+    color: #FF9900;
+}
+.feedback span {
+    color:#146EB4
+}
+
+
+
+
+
+
+
+
 footer {
     background-color: #232F3E;
     color: white;
