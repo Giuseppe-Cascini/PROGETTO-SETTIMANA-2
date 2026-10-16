@@ -22,7 +22,7 @@ const prodotti = [
         prezzo:89.99,
         rating:4.2,
         immagine:'cufffie.png',
-        disponibile:'true'
+        disponibile:true
     },
     {
         nome:'tablet',
@@ -30,7 +30,7 @@ const prodotti = [
         prezzo:199.00,
         rating:4.7,
         immagine:'tablet.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'libro',
@@ -38,7 +38,7 @@ const prodotti = [
         prezzo:14.90,
         rating:4.0,
         immagine:'libro.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'zaino',
@@ -46,7 +46,7 @@ const prodotti = [
         prezzo:49.99,
         rating:4.3,
         immagine:'zaino.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'lampada',
@@ -54,7 +54,7 @@ const prodotti = [
         prezzo:29.50,
         rating:3.8,
         immagine:'lampada.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'smartwatch',
@@ -62,7 +62,7 @@ const prodotti = [
         prezzo:119.00,
         rating:4.4,
         immagine:'smartwatch.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'mouse',
@@ -70,7 +70,7 @@ const prodotti = [
         prezzo:24.90,
         rating:4.1,
         immagine:'mouse.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'caffettiera',
@@ -78,7 +78,7 @@ const prodotti = [
         prezzo:22.00,
         rating:4.6,
         immagine:'caffettiera.png',
-        disponibile:'true'
+        disponibile:true
     },
      {
         nome:'iphone 18 pro',
@@ -86,7 +86,7 @@ const prodotti = [
         prezzo:1475.00,
         rating:4.7,
         immagine:'iphone18pro.png',
-        disponibile:'false'
+        disponibile:false
     },
      {
         nome:'felpa nike',
@@ -94,7 +94,7 @@ const prodotti = [
         prezzo:79.99,
         rating:4.4,
         immagine:'felpanike.png',
-        disponibile:'false'
+        disponibile:false
     },
      {
         nome:'tavolo',
@@ -102,7 +102,7 @@ const prodotti = [
         prezzo:169.00,
         rating:4.1,
         immagine:'tavolo.png',
-        disponibile:'false'
+        disponibile:false
     },
      {
         nome:'t-shirt',
@@ -110,7 +110,7 @@ const prodotti = [
         prezzo:29.99,
         rating:4.1,
         immagine:'t-shirt.png',
-        disponibile:'false'
+        disponibile:false
     }
 ];
 console.log(prodotti);
@@ -173,6 +173,16 @@ console.log(filtro("elettronica"));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function filtroDisponibiliRating() {
+    const dispRat = [];
+    for(let i=0; i<prodotti.length; i++) {
+        if (prodotti[i].disponibile === true && prodotti[i].rating >= 3) {
+            dispRat.push(prodotti[i]);
+        }
+    }
+    return dispRat;
+}
+console.log(filtroDisponibiliRating())
 
 /* --------------------------------------------------------------
 
