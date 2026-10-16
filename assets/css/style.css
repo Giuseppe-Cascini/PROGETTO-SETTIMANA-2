@@ -83,3 +83,90 @@ header{
 .hero p {
     font-size: 18px;
 }
+.categorie {
+    padding: 30px;
+    text-align: center;
+    
+}
+.categorie h2 {
+    text-align: start;
+}
+.categoria {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    
+
+}
+.categoria h3 {
+    font-size: 16px;
+    margin: 10px 10px 0;
+    text-align: left;
+}
+.categoria a {
+    display: block;
+    color: #007185;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 10px 12px;
+}
+
+.immagine-elettronica,
+.immagine-libri,
+.immagine-abbigliamento,
+.immagine-casa {
+    height: 160px;
+    text-align: center;
+    align-content: center;
+    color:white;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+.immagine-elettronica:hover,
+.immagine-libri:hover,
+.immagine-abbigliamento:hover,
+.immagine-casa:hover {
+    
+    transform: translateY(-5px);
+}
+.immagine-elettronica {
+    background-color: #232F3E;
+}
+.immagine-libri {
+    background-color: #C45500;
+}
+.immagine-abbigliamento {
+    background-color: #146EB4;
+}
+.immagine-casa {
+    background-color: #067D62;
+}
+.prodotti {
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+.prodotti h2 {
+    margin-bottom: 20px;
+}
+.prodotti article {
+    display: inline-block;
+    width: 23%;
+    padding:12px;
+    margin: 0 1% 15px 0;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    vertical-align: top;
+    height: 370px;
+}
+.prodotti article img {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+.prodotti article h3 {
+    min-height: 45px;
+}
